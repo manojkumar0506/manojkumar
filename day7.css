@@ -1,0 +1,146 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background: red;
+    color: white;
+    text-align: center;
+    padding:  9px;
+    box-shadow: blue;
+    list-style: none;
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0ch;
+    
+}
+nav li{
+    margin-left: 10px;
+    padding: 9px;
+    background-color:blue;
+}
+img{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+}
+p{
+    display: flex;
+    justify-content:center ;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0ch;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: blueviolet;
+}
+h1{
+    background-color:lightblue;
+    padding: 20px;
+    text-box: initial;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    text-box: inherit;
+}
+.social{
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: right;
+
+}
+svg{
+    width: 40px;
+}
+footer li{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+.skills li{
+    list-style: none;
+    background-color: chocolate;
+    padding: 10px;
+    box-shadow: 0 0 20px black;
+}
+h1{
+    display: flex;
+    align-items: center;
+}
+.study{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightcoral;
+    padding: 15px;
+    box-shadow: 0cap;
+}
+.study li{
+    list-style: none;
+    padding: 9px;
+    background-color: yellowgreen;
+}
+.about-image{
+    display: flex;
+    padding: 60px;
+    justify-content: space-around;
+    background-color: gold;
+}
+.about-image p{
+    width: 300px;
+}
+@media(max-width:900px){
+    .skills{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(218, 155, 8);
+        margin-top: 20px;
+    }
+    .about-image{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(96, 16, 177);
+        margin-top: 20px;
+    }
+
+    .study{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(142, 23, 29);
+        margin-top: 20px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(93, 21, 195);
+        margin-top: 20px;
+
+    }
+    header{
+         display: flex;
+        flex-direction: column;
+        background-color: rgb(16, 25, 6);
+        margin-top: 20px;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(16, 25, 6);
+        margin-top: 20px;
+
+    }
+}
+
+
